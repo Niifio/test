@@ -7,7 +7,7 @@ import Oauth from "../components/Oauth";
 
 import Image from "next/image";
 
-const signin = () => {
+const Signin = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
     email: "",
@@ -104,4 +104,4 @@ const signin = () => {
   );
 };
 
-export default signin;
+export default Signin;

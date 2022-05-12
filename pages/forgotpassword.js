@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import Link from "next/link";
 import Image from "next/image";
 
-const forgotpassword = () => {
+const Forgotpassword = () => {
   const [email, setEmail] = useState("");
 
   const onChange = (e) => {
@@ -52,4 +52,4 @@ const forgotpassword = () => {
   );
 };
 
-export default forgotpassword;
+export default Forgotpassword;

@@ -6,7 +6,7 @@ import { doc, serverTimestamp, updateDoc } from "firebase/firestore";
 import Link from "next/link";
 import TableContext from "../components/ContextApi";
 
-const profile = () => {
+const Profile = () => {
   const [changeDetails, setChangeDetails] = useState(false);
   const { isSelected, fetchData } = useContext(TableContext);
   useEffect(() => {
@@ -149,4 +149,4 @@ const profile = () => {
   );
 };
 
-export default profile;
+export default Profile;

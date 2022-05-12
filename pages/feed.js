@@ -1,6 +1,6 @@
 import React from "react";
 import Tables from "../components/Tables";
-const feed = () => {
+const Feed = () => {
   return (
     <>
       <Tables />
@@ -9,4 +9,4 @@ const feed = () => {
   );
 };
 
-export default feed;
+export default Feed;

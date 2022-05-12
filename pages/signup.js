@@ -12,7 +12,7 @@ import { ToastContainer, toast } from "react-toastify";
 import Image from "next/image";
 import Oauth from "../components/Oauth";
 
-const signup = () => {
+const Signup = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -124,4 +124,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default Signup;
